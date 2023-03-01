@@ -5,7 +5,7 @@ using FronToBack.Models;
 namespace FronToBack.Areas.AdminArea.Controllers;
 
 [Area("AdminArea")]
-public class CategoryController:Controller
+public class CategoryController : Controller
 {
     private readonly AppDbContext _appDbCOntext;
 
@@ -21,9 +21,9 @@ public class CategoryController:Controller
 
     public IActionResult Detail(int id)
     {
-        if (id==null) return NotFound();
-        Category category = _appDbCOntext.Categories.SingleOrDefault(c=>c.Id==id);
-         if (id==null) return NotFound();
+        if (id == null) return NotFound();
+        Category category = _appDbCOntext.Categories.SingleOrDefault(c => c.Id == id);
+        if (id == null) return NotFound();
         return View(category);
     }
 
@@ -31,12 +31,25 @@ public class CategoryController:Controller
     {
         return View();
     }
-     
-     [HttpPost]
-     public IActionResult Create(Category category)
+
+    [HttpPost]
+    public IActionResult Create(Category category)
     {
-        _appDbCOntext.Categories.Add(category);
+        List<Category> categories = _appDbCOntext.Categories.ToList();
+        foreach (var item in categories)
+        {
+            if (category.Name==item.Name)
+            {
+                var dumbcode=1;
+            }
+            else
+            {
+              _appDbCOntext.Categories.Add(category);
+              break;
+            }
+        }
         _appDbCOntext.SaveChanges();
+
         return RedirectToAction("Index");
     }
 }
