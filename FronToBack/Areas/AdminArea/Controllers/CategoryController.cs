@@ -26,4 +26,9 @@ public class CategoryController:Controller
          if (id==null) return NotFound();
         return View(category);
     }
+
+    public IActionResult Create()
+    {
+        return View();
+    }
 }
