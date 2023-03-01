@@ -31,4 +31,12 @@ public class CategoryController:Controller
     {
         return View();
     }
+     
+     [HttpPost]
+     public IActionResult Create(Category category)
+    {
+        _appDbCOntext.Categories.Add(category);
+        _appDbCOntext.SaveChanges();
+        return RedirectToAction("Index");
+    }
 }
