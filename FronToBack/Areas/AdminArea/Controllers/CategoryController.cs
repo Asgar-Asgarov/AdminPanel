@@ -40,15 +40,13 @@ public class CategoryController : Controller
         {
             if (category.Name==item.Name)
             {
-                var dumbcode=1;
+               return NotFound();
             }
-            else
-            {
-              _appDbCOntext.Categories.Add(category);
-              break;
-            }
+                      
+            
         }
-        _appDbCOntext.SaveChanges();
+        _appDbCOntext.Categories.Add(category);
+         _appDbCOntext.SaveChanges();
 
         return RedirectToAction("Index");
     }
