@@ -7,6 +7,6 @@ public class DashBoardController:Controller
 {
     public IActionResult Index()
     {
-        return Content("Admin Dashboard");
+        return View();
     }
 }
