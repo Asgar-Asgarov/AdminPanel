@@ -18746,6 +18746,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\User\\Desktop\\backend projects\\AdminPanel\\FronToBack\\Areas\\AdminArea\\Views\\Category\\Detail.cshtml",
+      "TargetPath": "Areas\\AdminArea\\Views\\Category\\Detail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\User\\Desktop\\backend projects\\AdminPanel\\FronToBack\\Views\\Shared\\Components\\Product\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\Product\\Default.cshtml",
       "FileKind": "mvc"
