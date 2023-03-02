@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using FronToBack.DAL;
 using FronToBack.Models;
+using FronToBack.ViewModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace FronToBack.Areas.AdminArea.Controllers;
 
@@ -33,10 +35,22 @@ public class CategoryController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create(Category category)
+    public IActionResult Create(CategoryCreateVM category)
     {
       if(!ModelState.IsValid) return View();
-        _appDbCOntext.Categories.Add(category);
+      bool isExist=_appDbCOntext.Category.Any(c=>c.Name.ToLower()==category.Name.ToLower());
+      if(isExist)
+        {
+            ModelState.AddModelError("Name","Bu adli category yoxdur");
+            return View();
+        }
+          
+      Category newCategory = new();
+      {
+        Name= category.Name;
+        Description=category.Description;
+      }
+        _appDbCOntext.Categories.Add(newCategory);
          _appDbCOntext.SaveChanges();
 
         return RedirectToAction("Index");
