@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asgaryas\\Desktop\\New folder (3)\\FronToBack\\FronToBack.csproj": {}
+    "C:\\Users\\User\\Desktop\\backend projects\\AdminPanel1\\FronToBack\\FronToBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asgaryas\\Desktop\\New folder (3)\\FronToBack\\FronToBack.csproj": {
+    "C:\\Users\\User\\Desktop\\backend projects\\AdminPanel1\\FronToBack\\FronToBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asgaryas\\Desktop\\New folder (3)\\FronToBack\\FronToBack.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\backend projects\\AdminPanel1\\FronToBack\\FronToBack.csproj",
         "projectName": "FronToBack",
-        "projectPath": "C:\\Users\\asgaryas\\Desktop\\New folder (3)\\FronToBack\\FronToBack.csproj",
-        "packagesPath": "C:\\Users\\asgaryas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asgaryas\\Desktop\\New folder (3)\\FronToBack\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\backend projects\\AdminPanel1\\FronToBack\\FronToBack.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\backend projects\\AdminPanel1\\FronToBack\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\asgaryas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

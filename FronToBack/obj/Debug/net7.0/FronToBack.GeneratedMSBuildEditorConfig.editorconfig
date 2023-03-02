@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FronToBack
 build_property.RootNamespace = FronToBack
-build_property.ProjectDir = C:\Users\asgaryas\Desktop\New folder (3)\FronToBack\
+build_property.ProjectDir = C:\Users\User\Desktop\backend projects\AdminPanel1\FronToBack\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\asgaryas\Desktop\New folder (3)\FronToBack
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\backend projects\AdminPanel1\FronToBack
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Areas/AdminArea/Views/Category/Create.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Areas/AdminArea/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Areas/AdminArea/Views/Category/Detail.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Areas/AdminArea/Views/Category/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXENhdGVnb3J5XERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Areas/AdminArea/Views/Category/Index.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Areas/AdminArea/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Areas/AdminArea/Views/Dashboard/Index.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Areas/AdminArea/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXFNoYXJlZFxfQWRtaW5MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Areas/AdminArea/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Areas/AdminArea/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Areas/AdminArea/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Areas/AdminArea/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/Product/Index.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/Shared/Components/Footer/Default.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/Shared/Components/Footer/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/Shared/Components/Header/Default.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/Shared/Components/Header/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZGVyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/Shared/Components/Product/Default.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/Shared/Components/Product/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/Shared/_ProductLoadMorePartial.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/Shared/_ProductLoadMorePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0TG9hZE1vcmVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asgaryas/Desktop/New folder (3)/FronToBack/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/backend projects/AdminPanel1/FronToBack/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3vaixlkjpl

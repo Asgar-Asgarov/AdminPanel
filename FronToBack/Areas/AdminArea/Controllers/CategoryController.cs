@@ -35,16 +35,7 @@ public class CategoryController : Controller
     [HttpPost]
     public IActionResult Create(Category category)
     {
-        List<Category> categories = _appDbCOntext.Categories.ToList();
-        foreach (var item in categories)
-        {
-            if (category.Name==item.Name)
-            {
-               return NotFound();
-            }
-                      
-            
-        }
+      if(!ModelState.IsValid) return View();
         _appDbCOntext.Categories.Add(category);
          _appDbCOntext.SaveChanges();
 
